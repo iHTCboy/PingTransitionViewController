@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6D28D8511ED12F8100811FE8 /* PingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28D8501ED12F8100811FE8 /* PingTransition.swift */; };
+		6D35AB051ED1928600021397 /* PingTransition-20170521-171300.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D35AB041ED1928600021397 /* PingTransition-20170521-171300.gif */; };
 		6DB14E741ED0901A00FA2062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB14E731ED0901A00FA2062 /* AppDelegate.swift */; };
 		6DB14E761ED0901A00FA2062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB14E751ED0901A00FA2062 /* ViewController.swift */; };
-		6DB14E791ED0901A00FA2062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB14E771ED0901A00FA2062 /* Main.storyboard */; };
 		6DB14E7B1ED0901A00FA2062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB14E7A1ED0901A00FA2062 /* Assets.xcassets */; };
 		6DB14E7E1ED0901A00FA2062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB14E7C1ED0901A00FA2062 /* LaunchScreen.storyboard */; };
 		6DB14E891ED0901A00FA2062 /* PingTransition_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB14E881ED0901A00FA2062 /* PingTransition_SwiftTests.swift */; };
@@ -37,10 +37,10 @@
 
 /* Begin PBXFileReference section */
 		6D28D8501ED12F8100811FE8 /* PingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingTransition.swift; sourceTree = "<group>"; };
+		6D35AB041ED1928600021397 /* PingTransition-20170521-171300.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "PingTransition-20170521-171300.gif"; sourceTree = "<group>"; };
 		6DB14E701ED0901A00FA2062 /* PingTransition-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PingTransition-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB14E731ED0901A00FA2062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DB14E751ED0901A00FA2062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6DB14E781ED0901A00FA2062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DB14E7A1ED0901A00FA2062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB14E7D1ED0901A00FA2062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DB14E7F1ED0901A00FA2062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D35AB031ED1928600021397 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				6D35AB041ED1928600021397 /* PingTransition-20170521-171300.gif */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		6DB14E671ED0901A00FA2062 = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +113,8 @@
 				6DB14E751ED0901A00FA2062 /* ViewController.swift */,
 				6DB14EA71ED090D600FA2062 /* SecondViewController.swift */,
 				6D28D8501ED12F8100811FE8 /* PingTransition.swift */,
-				6DB14E771ED0901A00FA2062 /* Main.storyboard */,
 				6DB14E7A1ED0901A00FA2062 /* Assets.xcassets */,
+				6D35AB031ED1928600021397 /* Screenshots */,
 				6DB14E7C1ED0901A00FA2062 /* LaunchScreen.storyboard */,
 				6DB14E7F1ED0901A00FA2062 /* Info.plist */,
 			);
@@ -244,7 +252,7 @@
 			files = (
 				6DB14E7E1ED0901A00FA2062 /* LaunchScreen.storyboard in Resources */,
 				6DB14E7B1ED0901A00FA2062 /* Assets.xcassets in Resources */,
-				6DB14E791ED0901A00FA2062 /* Main.storyboard in Resources */,
+				6D35AB051ED1928600021397 /* PingTransition-20170521-171300.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6DB14E771ED0901A00FA2062 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DB14E781ED0901A00FA2062 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6DB14E7C1ED0901A00FA2062 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

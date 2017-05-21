@@ -23,7 +23,6 @@ class SecondViewController: UIViewController {
         edgeGes.edges = .left;
         view.addGestureRecognizer(edgeGes)
         
-        view.backgroundColor = UIColor.purple
     }
     
     override func didReceiveMemoryWarning() {
