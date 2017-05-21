@@ -5,4 +5,4 @@ Do circle amplification of small transition animation for Swift3, Swift3 实现�
 
 ### Screenshots
 
-[Screenshots](https://github.com/iHTCboy/PingTransitionViewController/blob/master/PingTransition-Swift/Screenshots/PingTransition-20170521-171300.gif)
+![Screenshots](https://github.com/iHTCboy/PingTransitionViewController/blob/master/PingTransition-Swift/Screenshots/PingTransition-20170521-171300.gif)
